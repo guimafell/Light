@@ -1,0 +1,38 @@
+CREATE DATABASE NPC
+
+GO
+<======1=============================================>
+USE NPC
+
+GO
+<======2=============================================>
+CREATE TABLE USUARIO(
+
+IDUSER INT NOT NULL,
+
+NOME VARCHAR(50) NOT NULL,
+
+EMAIL VARCHAR(50) NOT NULL,
+
+SENHA VARCHAR(50) NOT NULL,
+
+FONE VARCHAR(50),
+
+PERFIL VARCHAR(50)NOT NULL,
+
+SETOR VARCHAR(50) NOT NULL,
+
+NCASA VARCHAR(50) NOT NULL,
+
+NRUA VARCHAR(50) NOT NULL,
+
+CONTA FLOAT NOT NULL, 
+
+PAGO VARCHAR(5) NOT NULL,
+
+CONSTRAINT PK_IDUSER PRIMARY KEY (IDUSER)
+);
+
+
+GO
+<=====3==============================================>
